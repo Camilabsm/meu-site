@@ -1,0 +1,107 @@
+/*<section id="sobre" class="sobre">
+            <div class="titulo__secao">
+                <h2 class="titulo__secao__texto"><span>Sobre mim</span></h2>
+            </div>
+            <div class="texto__secao">
+                <div>
+                    <img src="./img/2 823496-removebg-preview.png" alt="Imagem de uma menina programando em frente ao computador" class="sobre__img">
+                </div>
+                <div class="texto__secao__paragrafo">
+                    <p>Engenheira de formação, desenvolvedora por paixão! Meu primeiro contato com a programação foi na faculdade, mas, somente após anos de atuação na indústria, vi que desenvolvimento realmente é o que me faz brilhar os olhos.</p>
+                    <p>Sou de Fortaleza - CE e adoro uma praia tanto quanto adoro passar horas na frente de um código enquanto escuto música! Outros hobbies meus são sair para tomar um café, assistir seriados e jogar jogos de console.</p>
+                </div>
+            </div>
+        </section>*/
+
+/*
+Linhas Horizontais no título, caso queira!
+.titulo__secao{
+    overflow: hidden;
+    text-align: center;
+}
+.titulo__secao > span{
+   position: relative;
+   display: inline-block;
+}
+.titulo__secao > span:before, .titulo__secao > span:after{
+   content: '';
+   position: absolute;
+   top: 50%;
+   border-bottom: 0.5em dotted;
+   width: 20vw;
+   margin: 0 1em;
+}
+
+.titulo__secao > span:before{
+   right: 100%;
+}
+
+.titulo__secao > span:after{
+   left: 100%;
+}*/
+
+.sobre{
+    padding: 0 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.titulo__secao__texto{
+    font-size: 1.2rem;
+    font-family: 'Bitter', serif;
+    font-weight: bold;
+    line-height: 0;
+    color: var(--vermelho);    
+}
+
+.texto__secao{
+    display: flex;
+    flex-direction: column;
+}
+
+.sobre__texto{
+    font-family: 'Quicksand', sans-serif;
+    color: var(--grafite);
+    margin: 1em 0;
+    font-weight: bold;
+    text-align: justify;
+}
+
+.sobre__img{
+    max-width: 80%;
+    max-height: 50%;
+}
+
+@media screen and (min-width: 768px){
+    .sobre__img{
+        width: 40%;    
+    }
+
+    .sobre__div__img{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media screen and (min-width: 1024px){
+   .texto__secao{
+        flex-direction: row;
+   }
+
+   .texto__secao__paragrafo{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+   }
+
+   .sobre__div__img{
+        height: fit-content;
+   }
+   .sobre__img{
+        width: auto; 
+   }
+
+  
+}

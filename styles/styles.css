@@ -1,0 +1,51 @@
+@import url("./cabecalho.css");
+@import url("./inicial.css");
+@import url("./sobre.css");
+@import url("./skills.css");
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Megrim&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bitter:wght@300;400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+@font-face {
+    font-family: Mosk Bold;
+    src: url(../fonts/Mosk\ Ultra-Bold\ 900.ttf);
+}
+
+:root{
+    --branco-principal: #FFFFFF;
+    --rosa: #F2A2B1;
+    --vermelho: #E94842;
+    --grafite: #352637;
+    --bege: #F7D5C6;
+    --bege-claro: #f8ebe5;
+    --laranja: #e96342;
+}
+
+body{
+    background-color: var(--bege-claro);
+    font-size: 1em;
+    width: 100vw;
+    box-sizing: border-box;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+
+.rodape{
+    height: 5vh;
+}
+
+a{
+    text-decoration: none;
+}
+
+hr{
+    width: 20vw;
+    border-top: 6px dotted var(--rosa);
+    margin: 2em auto; 
+}
+

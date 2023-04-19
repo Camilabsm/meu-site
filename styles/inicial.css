@@ -1,0 +1,92 @@
+/* <section id="inicial" class="inicial">
+            <div class="container">
+                <div class="imagem">
+                    <img src="./img/fotor_2023-4-3_9_36_21.png" alt="Foto da Camila">
+                </div>
+
+                <div class="inicial__texto">
+                    <p class="saudacao">Olá!</p>
+                    <p class="apresentacao">Meu nome é Camila Matias</p>
+                    <p class="texto">e sou desenvolvedora front-end</p>
+                    <p></p>
+                    <div class="inicial__links">
+                        <a href="#sobre" class="inicial__botao">Sobre mim</a>
+                        <a href="#contato" class="inicial__botao">Contato</a>  
+                    </div>
+                </div>
+            </div>    
+        </section> */
+
+.inicial{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    margin-top: 2em;
+    width: 80vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2em;
+}
+
+.container__texto__apresentacao{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 0.8em;
+    font-weight: 600;
+    margin-bottom: 0.5em;
+}
+
+.dev{
+    font-size: 2.5rem;
+}
+
+.fe{
+  -webkit-text-fill-color: transparent; 
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: var(--vermelho);
+}
+
+.fe:hover{
+    -webkit-text-fill-color: var(--vermelho);
+    -webkit-text-stroke-width: 0;
+}
+
+.container__texto__descricao{
+    font-family: 'Mosk Bold';
+    font-size: 2.5rem;
+    text-align: left;
+    line-height: 2.5rem;
+    color: var(--vermelho);   
+}
+
+
+.cardsInicial{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+@media screen and (min-width: 1024px){
+    .inicial{
+        height: 90vh;
+    }
+
+    .container{
+        flex-direction: row;
+        margin: 0;
+    }
+
+    .container__texto__apresentacao{
+        font-size: 1em;
+    }
+
+    .container__texto__descricao, .dev{
+        font-size: 4rem;
+        line-height: 3.5rem;
+    }
+}
+

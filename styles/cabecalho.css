@@ -1,0 +1,102 @@
+.cabecalho{
+    height: 5vh;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5em 1em 0.5em 0;
+    background-color: var(--bege-claro);
+}
+
+.cabecalho__esquerda{
+    display: flex;
+    gap: 1em;
+    align-items: center;
+}
+
+#icone-menu-aberto, #icone-menu-fechado{
+    padding-left: 0.5em;
+}
+#icone-menu-aberto{
+    display: none;
+}
+
+#marca{
+    font-size: 1.4em;
+    font-weight: bold;
+    color: var(--grafite);
+    font-family: 'Megrim', sans-serif;
+}
+
+.dropdown{
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 600;
+    display: none;
+    position: absolute;
+    top: 100%;
+    flex-direction: column;
+    background-color: var(--bege-claro);
+    padding: 1em;
+    gap: 1em;
+    border-bottom-right-radius: 10%;
+}
+
+.menu__item{
+    color: var(--grafite);
+}
+
+.cabecalho__direita{
+    display: none;
+}
+
+@media screen and (min-width: 728px){
+    .cabecalho__direita{
+        display: flex;
+        text-decoration: none;
+        gap: 1em;
+        font-family: 'Bitter', serif;
+        font-weight: 600;
+        font-size: 0.8em;
+        margin-right: 1em;
+    }
+
+    .header__menu__item{
+        background-image: linear-gradient(transparent 0%, transparent 90%, var(--vermelho) 90%, var(--vermelho) 100%);
+        background-repeat: no-repeat;
+        background-size: 0 100%;
+        background-position-x: right;
+
+        transition: background-size 300ms;
+    }
+
+    .header__menu__item:hover{
+        background-size: 100% 100%;
+        background-position-x: left;
+    }
+
+    .header__menu__item:link, .header__menu__item:visited, .header__menu__item:active {
+        color: var(--grafite);
+    }
+
+    #icone-menu-fechado, #cv-cabecalho{
+        display: none;
+    }
+
+    #marca{ 
+        margin-left: 1em;
+    }
+}
+
+@media screen and (min-width: 1024px){
+    .cabecalho{
+        height: 10vh;
+    }
+
+    .cabecalho__direita{
+        font-size: 1em;
+        gap: 2em;
+    }
+    #marca{
+        font-size: 2em;
+    }
+}

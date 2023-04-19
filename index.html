@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./styles/reset.css" rel="stylesheet"> 
+    <link href="./styles/styles.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+    <link rel="icon" type="image/png" sizes="16x16" href="./img/favicon-32x32.png">
+    <script src="./src/CardInicial.js" defer></script>
+    <script src="./src/BotaoAncora.js" defer></script>
+    <title>Camila Matias | Dev Front-End</title>
+</head>
+<body>
+    <header class="cabecalho">
+        <div class="cabecalho__esquerda">
+            <svg id="icone-menu-fechado" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#352637" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg>
+            <svg id="icone-menu-aberto" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#352637" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+            <a href="#inicial" id="marca">CM</a>
+            <ul class="dropdown" id="menu-dropdown">
+                <a href="#inicial" class="menu__item">Início</a>
+                <a href="#sobre" class="menu__item">Sobre mim</a>
+                <a href="#skills" class="menu__item">Skills</a>
+                <a href="#portfolio" class="menu__item">Portfolio</a>
+                <a href="#educacao" class="menu__item">Educação</a>
+                <a href="#experiencias" class="menu__item">Experiências</a>
+                <a href="#contato" class="menu__item">Contato</a>
+            </ul>
+        </div>
+        <div class="cabecalho__meio">
+            <botao-ancora id="cv-cabecalho" texto-botao="Baixe meu CV" url-botao="https://drive.google.com/file/d/1ArnDDvneRIMlbI6eWKXJ79hFbmxqwVNB/view?usp=share_link"></botao-ancora>
+        </div>
+        <nav class="cabecalho__direita">
+            <a href="#inicial" class="header__menu__item">Início</a>
+            <a href="#sobre" class="header__menu__item">Sobre mim</a>
+            <a href="#skills" class="header__menu__item">Skills</a>
+            <a href="#portfolio" class="header__menu__item">Portfolio</a>
+            <a href="#educacao" class="header__menu__item">Educação & Experiências</a>
+            <a href="#contato" class="header__menu__item">Contato</a>
+        </nav>
+    </header>
+  
+    <main>        
+        <section id="inicial" class="inicial">
+            <div class="container">
+              <div class="container__texto">
+                <p class="container__texto__apresentacao">&#128075; olá, eu sou a Camila!</p>
+                <p class="container__texto__descricao">sou uma <span class="dev">desenvolvedora</span> <span class="fe">front end</span></p>
+              </div>
+              <div class="cardsInicial"> 
+                <card-inicial texto-principal="Crio produtos responsivos focando na qualidade do produto final e alinhamento às expectativas do cliente."></card-inicial>
+                <card-inicial texto-principal="Navegue pelo menu principal para saber mais sobre mim, visualizar alguns dos meus projetos e saber como entrar em contato comigo :)"></card-inicial>
+              </div>   
+            </div>    
+        </section>
+        
+        <hr>
+
+        <section id="sobre" class="sobre">
+            <div class="titulo__secao">
+                <h2 class="titulo__secao__texto">Sobre mim</h2>
+            </div>
+            <div class="texto__secao">
+                <div class="sobre__div__img">
+                    <img src="./img/fotor_2023-4-3_9_36_21.png" alt="Foto da Camila" class="sobre__img">
+                </div>
+                <div class="texto__secao__paragrafo">
+                    <p class="sobre__texto">Olá! Me chamo Camila, tenho 28 anos e sou de Fortaleza - CE. Sou engenheira química de formação, porém, após alguns anos trabalhando na indústria, decidi fazer uma transição de carreira para a área de tecnologia.</p>
+                    <p class="sobre__texto">Meu primeiro contato com a programação foi na faculdade, onde incorporei no meu TCC um algoritmo em Python que realizava o dimensionamento de um equipamento a partir de dados iniciais inputados pelo usuário. Hoje, sou mais familiarizada com HTML, CSS e JS, criando produtos responsivos de acordo com a necessidade de meus clientes.</p>
+                    <p class="sobre__texto">Quando não estou escrevendo código ou assistindo aulas, estou assistindo séries, saindo para tomar um café ou jogando no meu Nintendo Switch.</p>
+                </div>
+            </div>
+        </section>
+
+        <hr>
+
+      
+        <section id="skills" class="skills">
+            <h2 class="titulo__secao__texto">Skills</h2>
+        <div class="skills__container">
+            <div class="skills__subsection">
+                <h3 class="skills__subtitulo">Tecnologias</h3>
+                <div class="hard__skills">
+                    <div class="hard-skills__item">
+                        <i class="devicon-html5-plain-wordmark devicon"></i>
+                        <h3 class="skill__nome">HTML</h3>
+                    </div>
+                    <div class="hard-skills__item">
+                        <i class="devicon-css3-plain-wordmark devicon"></i>
+                        <h3 class="skill__nome">CSS</h3>
+                    </div>
+                    <div class="hard-skills__item">
+                        <i class="devicon-javascript-plain devicon"></i>
+                        <h3 class="skill__nome">JavaScript</h3>
+                    </div>
+                </div>
+            </div>
+
+            <div class="skills__subsection">
+                <h3 class="skills__subtitulo">Atualmente aprendendo:</h3>
+                <div class="skills__aprendendo">
+                  
+                    <div class="hard-skills__item">
+                        <i class="devicon-typescript-plain devicon"></i>
+                        <h3 class="skill__nome">Typescript</h3>
+                    </div>
+                    <div class="hard-skills__item">
+                        <i class="devicon-angularjs-plain devicon"></i>
+                        <h3 class="skill__nome">Angular</h3>
+                    </div>
+                </div>
+            </div>
+
+            <div class="skills__subsection">
+                <div class="soft-skills">
+                    <h3 class="skills__subtitulo">Soft Skills</h3>
+                    <div class="soft-skills__item">
+                        <img src="#" alt="Imagem de Habilidades Analíticas">
+                        <h3 class="skill__nome">Habilidades analíticas</h3>
+                    </div>
+                    <div class="soft-skills__item">
+                        <img src="#" alt="Imagem de Trabalho em Equipe">
+                        <h3 class="skill__nome">Trabalho em equipe</h3>
+                    </div>
+                    <div class="soft-skills__item">
+                        <img src="#" alt="Imagem de Aprendizado Rápido">
+                        <h3 class="skill__nome">Aprendizado rápido</h3>
+                    </div>
+                </div>
+            </div>
+
+            <div class="skills__subsection">
+                <div class="idiomas">
+                    <h3 class="skills__subtitulo">Idiomas</h3>
+                    <div class="idiomas__item">
+                        <h4 class="skill__nome">Inglês</h4>
+                        <p>Fluente - Leitura, Escrita e Conversação</p>
+                    </div>
+                    <div class="idiomas__item">
+                        <h4 class="skill__nome">Espanhol</h4>
+                        <p>Básico - Leitura e Escrita</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </section>
+<!-- 
+        <section id="portfolio" class="portfolio">
+            <div class="projeto">
+                <img src="" class="projetos__foto" alt="Foto Projeto 1">
+                <h3 class="projetos__titulo">Projeto 1</h3>
+                <p class="projetos__texto">O projeto 1 é o projeto tal feito com tecnologias x</p>
+                <a href="#" class="projetos__link">Visitar</a>
+            </div>
+            <div class="projeto">
+                <img src="" class="projetos__foto" alt="Foto Projeto 1">
+                <h3 class="projetos__titulo">Projeto 1</h3>
+                <p class="projetos__texto">O projeto 1 é o projeto tal feito com tecnologias x</p>
+                <a href="#" class="projetos__link">Visitar</a>
+            </div>
+            <div class="projeto">   
+                <img src="" class="projetos__foto" alt="Foto Projeto 1">
+                <h3 class="projetos__titulo">Projeto 1</h3>
+                <p class="projetos__texto">O projeto 1 é o projeto tal feito com tecnologias x</p>
+                <a href="#" class="projetos__link">Visitar</a>
+            </div>
+            <a href="#" target="_blank">Veja mais projetos!</a>
+        </section>
+        
+        <section id="educacao" class="educacao">
+            <h2>Educação</h2>
+            <ul class="edu-exp__lista">
+                <li class="educacao__item"></li>
+                <li class="educacao__item"></li>
+                <li class="educacao__item"></li>
+                <li class="educacao__item"></li>
+                <li class="educacao__item"></li>
+            </ul>
+        </section>
+
+        <section id="experiencias" class=experiencias>
+            <h2>Experiência</h2>
+            <ul class="edu-exp__lista">
+
+            </ul> 
+        </section>
+        
+        <section id="contato" class="contato">
+            <h2>Contato</h2>
+            <ul>
+                <li><img src="" alt="Logo do Email"><a href="mailto:camilabarbosasm@gmail.com">camilabarbosasm@gmail.com</a></li>
+                <li><img src="" alt="Logo do LinkedIn"><a href="#" target="_blank">LinkedIn</a></li>
+                <li><img src="" alt="Logo do GitHub"><a href="#" target="_blank">GitHub</a></li>
+                <li><img src="" alt="Logo do Instagram"><a href="#" target="_blank">Instagram</a></li>
+            </ul>
+        </section>
+    </main>
+    
+    <footer class="rodape">
+        <p>Desenvolvido por Camila Matias, 2023</p>
+        <p>Imagem retiradas do <a href="https://br.freepik.com/">Freepik</a></p>
+        <a href="https://www.flaticon.com/br/icones-gratis/ferramenta" title="ferramenta ícones">Ferramenta ícones criados por Andrean Prabowo - Flaticon</a>
+    </footer>
+    --> 
+    <script src="./src/main.js"></script>
+</body>
+</html>

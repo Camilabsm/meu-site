@@ -1,0 +1,88 @@
+/* <section id="skills" class="skills">
+            <div class="hard-skills">
+                <h2>Tecnologias</h2>
+                <div class="hard-skills__item">
+                    <img src="#" alt="Logo do HTML">
+                    <h3>HTML</h3>
+                </div>
+                <div class="hard-skills__item">
+                    <img src="#" alt="Logo do CSS">
+                    <h3>CSS</h3>
+                </div>
+                <div class="hard-skills__item">
+                    <img src="#" alt="Logo do JavaScript">
+                    <h3>JavaScript</h3>
+                </div>
+            </div>
+
+            <div class="soft-skills">
+                <h2>Soft Skills</h2>
+                <div class="soft-skills__item">
+                    <img src="#" alt="Imagem de Habilidades Analíticas">
+                    <h3>Habilidades analíticas</h3>
+                </div>
+                <div class="soft-skills__item">
+                    <img src="#" alt="Imagem de Trabalho em Equipe">
+                    <h3>Trabalho em equipe</h3>
+                </div>
+                <div class="soft-skills__item">
+                    <img src="#" alt="Imagem de Aprendizado Rápido">
+                    <h3>Aprendizado rápido</h3>
+                </div>
+            </div>
+
+            <div class="idiomas">
+                <h2>Idiomas</h2>
+                <div class="idiomas__item">
+                    <h3>Inglês</h3>
+                    <p>Fluente - Leitura, Escrita e Conversação</p>
+                </div>
+                <div class="idiomas__item">
+                    <h3>Espanhol</h3>
+                    <p>Básico - Leitura e Escrita</p>
+                </div>
+            </div>
+        </section> */
+
+.skills{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 0 2rem;
+}
+
+.hard__skills, .skills__aprendendo{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.devicon{
+    font-size: 4rem;
+    color: var(--rosa);
+}
+
+.hard-skills__item{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    align-items: center;
+}
+
+.skill__nome, .skills__subtitulo{
+    font-family: 'Bitter', serif;
+    text-transform: uppercase;
+    color: var(--grafite);
+}
+
+.skills__subtitulo{
+    font-weight: bold;
+    text-transform: none;
+}
+
+@media screen and (min-width: 1024px){
+    .skills__container{
+        display: flex;
+        gap: 5rem;
+    }
+}
