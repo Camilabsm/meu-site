@@ -22,21 +22,18 @@
                 <a href="#inicial" class="menu__item">Início</a>
                 <a href="#sobre" class="menu__item">Sobre mim</a>
                 <a href="#skills" class="menu__item">Skills</a>
-                <a href="#portfolio" class="menu__item">Portfolio</a>
-                <a href="#educacao" class="menu__item">Educação</a>
-                <a href="#experiencias" class="menu__item">Experiências</a>
+                <a href="#portfolio" class="menu__item">Projetos</a>
                 <a href="#contato" class="menu__item">Contato</a>
             </ul>
         </div>
         <div class="cabecalho__meio">
-            <botao-ancora id="cv-cabecalho" texto-botao="Baixe meu CV" url-botao="https://drive.google.com/file/d/1ArnDDvneRIMlbI6eWKXJ79hFbmxqwVNB/view?usp=share_link"></botao-ancora>
+            <botao-ancora id="cv-cabecalho" texto-botao="Baixe meu CV" url-botao="https://drive.google.com/fileF/d/1ArnDDvneRIMlbI6eWKXJ79hFbmxqwVNB/view?usp=share_link"></botao-ancora>
         </div>
         <nav class="cabecalho__direita">
             <a href="#inicial" class="header__menu__item">Início</a>
             <a href="#sobre" class="header__menu__item">Sobre mim</a>
             <a href="#skills" class="header__menu__item">Skills</a>
-            <a href="#portfolio" class="header__menu__item">Portfolio</a>
-            <a href="#educacao" class="header__menu__item">Educação & Experiências</a>
+            <a href="#portfolio" class="header__menu__item">Projetos</a>
             <a href="#contato" class="header__menu__item">Contato</a>
         </nav>
     </header>
@@ -49,14 +46,12 @@
                 <p class="container__texto__descricao">sou uma <span class="dev">desenvolvedora</span> <span class="fe">front end</span></p>
               </div>
               <div class="cardsInicial"> 
-                <card-inicial texto-principal="Crio produtos responsivos focando na qualidade do produto final e alinhamento às expectativas do cliente."></card-inicial>
+                <card-inicial texto-principal="Crio produtos responsivos com abordagem mobile-first, focando na qualidade do produto final e alinhamento às expectativas do cliente."></card-inicial>
                 <card-inicial texto-principal="Navegue pelo menu principal para saber mais sobre mim, visualizar alguns dos meus projetos e saber como entrar em contato comigo :)"></card-inicial>
               </div>   
             </div>    
         </section>
-        
         <hr>
-
         <section id="sobre" class="sobre">
             <div class="titulo__secao">
                 <h2 class="titulo__secao__texto">Sobre mim</h2>
@@ -72,10 +67,7 @@
                 </div>
             </div>
         </section>
-
         <hr>
-
-      
         <section id="skills" class="skills">
             <h2 class="titulo__secao__texto">Skills</h2>
         <div class="skills__container">
@@ -93,6 +85,18 @@
                     <div class="hard-skills__item">
                         <i class="devicon-javascript-plain devicon"></i>
                         <h3 class="skill__nome">JavaScript</h3>
+                    </div>
+                    <div class="hard-skills__item">
+                        <i class="devicon-git-plain devicon"></i>
+                        <h3 class="skill__nome">Git</h3>
+                    </div>
+                    <div class="hard-skills__item">
+                        <i class="devicon-github-original devicon"></i>
+                        <h3 class="skill__nome">GitHub</h3>
+                    </div>
+                    <div class="hard-skills__item">
+                        <i class="devicon-vscode-plain devicon"></i>
+                        <h3 class="skill__nome">VS Code</h3>
                     </div>
                 </div>
             </div>
@@ -115,94 +119,38 @@
             <div class="skills__subsection">
                 <div class="soft-skills">
                     <h3 class="skills__subtitulo">Soft Skills</h3>
-                    <div class="soft-skills__item">
-                        <img src="#" alt="Imagem de Habilidades Analíticas">
-                        <h3 class="skill__nome">Habilidades analíticas</h3>
-                    </div>
-                    <div class="soft-skills__item">
-                        <img src="#" alt="Imagem de Trabalho em Equipe">
-                        <h3 class="skill__nome">Trabalho em equipe</h3>
-                    </div>
-                    <div class="soft-skills__item">
-                        <img src="#" alt="Imagem de Aprendizado Rápido">
-                        <h3 class="skill__nome">Aprendizado rápido</h3>
-                    </div>
-                </div>
-            </div>
-
-            <div class="skills__subsection">
-                <div class="idiomas">
-                    <h3 class="skills__subtitulo">Idiomas</h3>
-                    <div class="idiomas__item">
-                        <h4 class="skill__nome">Inglês</h4>
-                        <p>Fluente - Leitura, Escrita e Conversação</p>
-                    </div>
-                    <div class="idiomas__item">
-                        <h4 class="skill__nome">Espanhol</h4>
-                        <p>Básico - Leitura e Escrita</p>
-                    </div>
+                    <ul>
+                        <li class="soft__skill__item">&#11088 Resolução de problemas</li>
+                        <li class="soft__skill__item">&#11088 Trabalho em equipe</li>
+                        <li class="soft__skill__item">&#11088 Aprendizado rápido</li>
+                        <li class="soft__skill__item">&#11088 Comunicação eficaz</li>
+                    </ul>
                 </div>
             </div>
         </div>
         </section>
-<!-- 
+        <hr>
         <section id="portfolio" class="portfolio">
-            <div class="projeto">
-                <img src="" class="projetos__foto" alt="Foto Projeto 1">
-                <h3 class="projetos__titulo">Projeto 1</h3>
-                <p class="projetos__texto">O projeto 1 é o projeto tal feito com tecnologias x</p>
-                <a href="#" class="projetos__link">Visitar</a>
-            </div>
-            <div class="projeto">
-                <img src="" class="projetos__foto" alt="Foto Projeto 1">
-                <h3 class="projetos__titulo">Projeto 1</h3>
-                <p class="projetos__texto">O projeto 1 é o projeto tal feito com tecnologias x</p>
-                <a href="#" class="projetos__link">Visitar</a>
-            </div>
-            <div class="projeto">   
-                <img src="" class="projetos__foto" alt="Foto Projeto 1">
-                <h3 class="projetos__titulo">Projeto 1</h3>
-                <p class="projetos__texto">O projeto 1 é o projeto tal feito com tecnologias x</p>
-                <a href="#" class="projetos__link">Visitar</a>
-            </div>
-            <a href="#" target="_blank">Veja mais projetos!</a>
+            <h2 class="titulo__secao__texto">Projetos</h2>
+            <p class="soon">Em breve</p>
         </section>
-        
-        <section id="educacao" class="educacao">
-            <h2>Educação</h2>
-            <ul class="edu-exp__lista">
-                <li class="educacao__item"></li>
-                <li class="educacao__item"></li>
-                <li class="educacao__item"></li>
-                <li class="educacao__item"></li>
-                <li class="educacao__item"></li>
-            </ul>
-        </section>
-
-        <section id="experiencias" class=experiencias>
-            <h2>Experiência</h2>
-            <ul class="edu-exp__lista">
-
-            </ul> 
-        </section>
-        
+        <hr>
         <section id="contato" class="contato">
-            <h2>Contato</h2>
-            <ul>
-                <li><img src="" alt="Logo do Email"><a href="mailto:camilabarbosasm@gmail.com">camilabarbosasm@gmail.com</a></li>
-                <li><img src="" alt="Logo do LinkedIn"><a href="#" target="_blank">LinkedIn</a></li>
-                <li><img src="" alt="Logo do GitHub"><a href="#" target="_blank">GitHub</a></li>
-                <li><img src="" alt="Logo do Instagram"><a href="#" target="_blank">Instagram</a></li>
-            </ul>
+            <h2 class="titulo__secao__texto">Contato</h2>
+            <div class="email"><a class="email" href="mailto:camilabarbosasm@gmail.com"><img class="sociais" src="./img/email icon.png" alt="Logo do Email">camilabarbosasm@gmail.com</a></div>
+            <div class="contato__sociais">
+                <a href="https://www.linkedin.com/in/camilabsmatias/" target="_blank"><img class="sociais" src="./img/linkedin icon.png" alt="Logo do LinkedIn"></a>
+                <a href="https://github.com/Camilabsm" target="_blank"><img class="sociais" src="./img/git hub icon.png" alt="Logo do GitHub"></a>
+                <a href="https://www.instagram.com/camilabsm/" target="_blank"><img class="sociais" src="./img/instagram icon.png" alt="Logo do Instagram"></a>
+            </div>        
         </section>
     </main>
     
     <footer class="rodape">
         <p>Desenvolvido por Camila Matias, 2023</p>
-        <p>Imagem retiradas do <a href="https://br.freepik.com/">Freepik</a></p>
-        <a href="https://www.flaticon.com/br/icones-gratis/ferramenta" title="ferramenta ícones">Ferramenta ícones criados por Andrean Prabowo - Flaticon</a>
+        <a href="./creditos.html">Créditos de imagens e tipografias</a>
     </footer>
-    --> 
+
     <script src="./src/main.js"></script>
 </body>
 </html>

@@ -1,0 +1,27 @@
+.sociais{
+    width: 25px;
+    
+}
+
+.contato{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.contato__sociais{
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.email{
+    display: flex;
+    gap: 0.5rem;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0.2rem;
+    font-family: 'Quicksand', sans-serif;
+    color: var(--grafite);
+    font-weight: bold;
+}

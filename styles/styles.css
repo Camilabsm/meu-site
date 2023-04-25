@@ -2,10 +2,13 @@
 @import url("./inicial.css");
 @import url("./sobre.css");
 @import url("./skills.css");
+@import url("./projetos.css");
+@import url("./footer.css");
+@import url("./contato.css");
+@import url("./creditos.css");
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Megrim&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bitter:wght@300;400;600&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
 
 @font-face {
     font-family: Mosk Bold;
@@ -35,10 +38,6 @@ main{
     box-sizing: border-box;
 }
 
-.rodape{
-    height: 5vh;
-}
-
 a{
     text-decoration: none;
 }
@@ -49,3 +48,6 @@ hr{
     margin: 2em auto; 
 }
 
+.sobre, .skills, .portfolio, .contato{
+    padding: 0 2rem;
+}

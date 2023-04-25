@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./styles/reset.css" rel="stylesheet"> 
+    <link href="./styles/styles.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+    <link rel="icon" type="image/png" sizes="16x16" href="./img/favicon-32x32.png">
+    <script src="./src/CardInicial.js" defer></script>
+    <script src="./src/BotaoAncora.js" defer></script>
+    <title>Camila Matias | Dev Front-End</title>
+</head>
+<body class="body__creditos">
+    <header class="cabecalho">
+        <div class="cabecalho__esquerda">
+            <svg id="icone-menu-fechado" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#352637" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg>
+            <svg id="icone-menu-aberto" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#352637" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+            <a href="./index.html" id="marca">CM</a>
+            <ul class="dropdown" id="menu-dropdown">
+                <a href="./index.html" class="menu__item">Voltar ao início</a>  
+            </ul>
+        </div>
+        <div class="cabecalho__meio">
+            <botao-ancora id="cv-cabecalho" texto-botao="Baixe meu CV" url-botao="https://drive.google.com/fileF/d/1ArnDDvneRIMlbI6eWKXJ79hFbmxqwVNB/view?usp=share_link"></botao-ancora>
+        </div>
+        <nav class="cabecalho__direita">
+            <a href="./index.html" class="header__menu__item">Voltar ao início</a>
+        </nav>
+    </header>
+
+    <main class="creditos">
+        <h2 class="creditos__titulo">Ícones</h2>
+        <ul>
+            <li><a class="creditos__item" href="https://devicon.dev/">Devicon</a></li>
+            <li><a class="creditos__item" href="https://iconsvg.xyz/">ICONSVG</a></li>
+            <li><a class="creditos__item" href="https://www.w3schools.com/charsets/ref_emoji.asp">Emoji Unicode Reference</a></li>
+            <li><a class="creditos__item" href="https://www.iconfinder.com/">IconFinder</a></li>
+        </ul>
+        <h2 class="creditos__titulo">Tipografias</h2>
+        <ul>
+            <li><a class="creditos__item" href="https://www.behance.net/gallery/33966928/Mosk-Typeface-(Free)">Mosk - Iulian Maftei</a></li>
+            <li><a class="creditos__item" href="https://fonts.google.com/">Quicksand, Bitter, Megrim - Google Fonts</a></li>
+        </ul>
+    </main>
+
+    <footer class="rodape">
+        <p>Desenvolvido por Camila Matias, 2023</p>
+    </footer>
+    <script src="./src/main.js"></script>
+</body>
+</html>

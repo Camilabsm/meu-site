@@ -41,7 +41,6 @@ Linhas Horizontais no título, caso queira!
 }*/
 
 .sobre{
-    padding: 0 2rem;
     display: flex;
     flex-direction: column;
     gap: 2rem;
@@ -55,22 +54,27 @@ Linhas Horizontais no título, caso queira!
     color: var(--vermelho);    
 }
 
-.texto__secao{
+.texto__secao, .texto__secao__paragrafo{
     display: flex;
     flex-direction: column;
+    gap: 1rem;
 }
 
 .sobre__texto{
     font-family: 'Quicksand', sans-serif;
+    font-size: 0.9rem;
     color: var(--grafite);
-    margin: 1em 0;
     font-weight: bold;
     text-align: justify;
 }
 
+.sobre__div__img{
+    display: flex;
+    justify-content: center;
+}
 .sobre__img{
     max-width: 80%;
-    max-height: 50%;
+    max-height: 50%;    
 }
 
 @media screen and (min-width: 768px){
