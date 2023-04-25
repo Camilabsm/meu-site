@@ -22,7 +22,7 @@ class CardInicial extends HTMLElement { //nosso componente terá as propriedades
         const foto = document.createElement("img");
         foto.setAttribute("class", "cardInicial__top__foto");
         foto.src = "/img/foto-Camila.PNG";
-        foto.alt = "Foto da Camila";
+        //foto.alt = "Foto da Camila";
 
         const nome = document.createElement("p");
         nome.setAttribute("class", "cardInicial__top__nome");
@@ -48,7 +48,7 @@ class CardInicial extends HTMLElement { //nosso componente terá as propriedades
         const likeCheio = document.createElement("img");
         likeCheio.setAttribute("class", "cardInicial__baixo__cheio");
         likeCheio.src = "/img/like-cheio.PNG";
-        likeCheio.alt = "Ícone de curtida cheio";
+        //likeCheio.alt = "Ícone de curtida cheio";
 
         const numeroCurtida = document.createElement("p");
         numeroCurtida.setAttribute("class", "cardInicial__baixo__numero");
