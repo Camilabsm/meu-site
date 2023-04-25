@@ -21,7 +21,7 @@ class CardInicial extends HTMLElement { //nosso componente terá as propriedades
         
         const foto = document.createElement("img");
         foto.setAttribute("class", "cardInicial__top__foto");
-        foto.src = "../img/fotor_2023-4-3_9_36_21.PNG";
+        foto.src = "https://github.com/Camilabsm/meu-site/blob/master/img/fotor_2023-4-3_9_36_21.png";
         foto.alt = "Foto da Camila";
 
         const nome = document.createElement("p");
@@ -47,7 +47,7 @@ class CardInicial extends HTMLElement { //nosso componente terá as propriedades
         
         const likeCheio = document.createElement("img");
         likeCheio.setAttribute("class", "cardInicial__baixo__cheio");
-        likeCheio.src = "../img/likeCheio.PNG";
+        likeCheio.src = "https://github.com/Camilabsm/meu-site/blob/master/img/likeCheio.png";
         likeCheio.alt = "Ícone de curtida cheio";
 
         const numeroCurtida = document.createElement("p");
